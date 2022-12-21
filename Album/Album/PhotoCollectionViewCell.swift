@@ -21,6 +21,7 @@ class PhotoCollectionViewCell: UICollectionViewCell {
         let ratio = self.frame.height / self.frame.width
         let newHeight = imageView.frame.width * ratio
         imageView.heightAnchor.constraint(equalToConstant: newHeight).isActive = true
+        imageView.contentMode = .scaleAspectFill
     }
     
     static func nib() -> UINib{

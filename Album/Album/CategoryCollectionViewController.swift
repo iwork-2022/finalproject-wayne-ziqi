@@ -32,6 +32,7 @@ class CategoryCollectionViewController: UICollectionViewController {
         
         let layout = UICollectionViewFlowLayout()
         layout.itemSize = CGSize(width: view.frame.size.width / 6, height: view.frame.size.height / 5)
+        
         collectionView.collectionViewLayout = layout
         
         collectionView.register(PhotoCollectionViewCell.nib(), forCellWithReuseIdentifier: reuseIdentifier)
