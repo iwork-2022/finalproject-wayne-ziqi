@@ -30,3 +30,23 @@
 
 ## 选题4 iOS智能开发之自由发挥
   - 带深度学习模型的App开发，自主命题 (100%)
+
+---
+
+# Album扩展功能简介
+
+## 数据持久化
+
+使用`CoreData`将图片与其相关信息保存至磁盘
+
+## 图片菜单
+
+通过`AlertView`给出操作菜单，支持展示图片信息，展示/隐藏`boundingBox`，重命名图片，删除图片。
+
+<img src="./README.assets/image-20230104105915453.png" alt="image-20230104105915453" style="zoom:50%;" />
+
+## 扩展数据集
+
+增加人脸分类
+
+<img src="./README.assets/image-20230104110134094.png" alt="image-20230104110134094" style="zoom:50%;" />
